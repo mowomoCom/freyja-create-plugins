@@ -1,0 +1,19 @@
+{
+  "name": "freyja-create-plugins",
+  "version": "1.0.0",
+  "description": "Herramienta desarrollada por mowomo con el objetivo de agilizar el trabajo a la hora de crear estructuras completas de plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mowomoCom/freyja-create-plugins.git"
+  },
+  "author": "mowomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mowomoCom/freyja-create-plugins/issues"
+  },
+  "homepage": "https://github.com/mowomoCom/freyja-create-plugins#readme"
+}

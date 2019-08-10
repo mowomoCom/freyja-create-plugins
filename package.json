@@ -1,19 +1,37 @@
 {
-  "name": "freyja-create-plugins",
-  "version": "1.0.0",
-  "description": "Herramienta desarrollada por mowomo con el objetivo de agilizar el trabajo a la hora de crear estructuras completas de plugins",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mowomoCom/freyja-create-plugins.git"
-  },
-  "author": "mowomo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mowomoCom/freyja-create-plugins/issues"
-  },
-  "homepage": "https://github.com/mowomoCom/freyja-create-plugins#readme"
+    "name": "freyja-create-plugins",
+    "version": "0.0.1",
+    "description": "Herramienta desarrollada por mowomo con el objetivo de agilizar el trabajo a la hora de crear estructuras completas de plugins",
+    "scripts": {
+        "start": "node ./bin/start.js"
+    },
+    "keywords": [
+        "WordPress",
+        "Plugins",
+        "Tool"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mowomoCom/freyja-create-plugins.git"
+    },
+    "author": "mowomo",
+    "license": "GPL",
+    "bugs": {
+        "url": "https://github.com/mowomoCom/freyja-create-plugins/issues"
+    },
+    "homepage": "https://github.com/mowomoCom/freyja-create-plugins#readme",
+    "dependencies": {
+        "@octokit/rest": "^16.28.2",
+        "chalk": "^2.4.2",
+        "clear": "^0.1.0",
+        "clui": "^0.3.6",
+        "configstore": "^5.0.0",
+        "figlet": "^1.2.3",
+        "fs-extra": "^8.0.1",
+        "inquirer": "^6.4.1",
+        "lodash": "^4.17.11",
+        "minimist": "^1.2.0",
+        "simple-git": "^1.116.0",
+        "touch": "^3.1.0"
+    }
 }
